@@ -1,0 +1,1 @@
+The CSS property `calc()` is not working as expected when used with percentage values within a `grid-template-columns` property.  For example, `grid-template-columns: calc(50% - 10px) 1fr;` might not produce the expected result, especially if the container element isn't explicitly sized.
