@@ -1,0 +1,17 @@
+/* bug.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: calc(50% - 10px) 1fr;
+}
+
+/* bugSolution.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: calc(50% - 10px) 1fr;
+  width: 500px; /* Explicit width added */
+}
+Alternatively, using viewports units
+.grid-container {
+  display: grid;
+  grid-template-columns: calc(50vw - 10px) 1fr;
+} 
